@@ -131,3 +131,4 @@ på Ensamma vargen spelen och hitta inspiration i dessa. Här är starten på et
     CREATE TABLE backpacks (id INT UNSIGNED AUTO_INCREMENT, PRIMARY KEY(id)) ENGINE = innodb DEFAULT CHARACTER SET = utf8mb4;
     ALTER TABLE backpacks ADD item_id INT UNSIGNED NOT NULL;
     ALTER TABLE backpacks ADD user_id INT UNSIGNED NOT NULL;# solo-ventyr
+# solo-ventyr
