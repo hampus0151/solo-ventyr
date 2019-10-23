@@ -7,7 +7,7 @@ if(isset($_GET['id'])) {
 //använd get id -url?id=ETT ID
 //$id = $_GET['id'];
 $filteredID = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
-}
+} 
 
 echo $id;
 

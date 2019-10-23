@@ -28,32 +28,26 @@
         }
       }
     </style>
-    <link href="css/style.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" rel="stylesheet">
   </head>
   <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">
-    <img class="masthead-brand" src="images/finalgreta.svg" alt="hansochgreta" style="width:35%">
+    <img class="masthead-brand" src="../images/finalgreta.svg" alt="svg" style="width:35%">
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="index.php">Hem</a>
-        <a class="nav-link" href="views/kontakt.html">Kontakt</a>
+        <a class="nav-link" href="../../php/">Hem</a>
+        <a class="nav-link active" href="kontakt.html">Kontakt</a>
       </nav>
     </div>
   </header>
 
   <main role="main" class="inner cover">
-
-    <p class="lead">
-    <?= $story['body'] ?>
-    </p>
-    <p class="lead">
-    <?php foreach ($links as $link): ?>
-                    <a href="?id=<?= $link['target_id'] ?>" class="btn btn-lg btn-secondary">
-                        <?= $link['description'] ?>
-                    </a>            
-    <?php endforeach ?>
-    </p>
+        <p class="lead">
+            <h4>kontakta kundservice</h4>
+                <p>Fax: 070-0707070</p>
+        </p>
   </main>
 
   <footer class="mastfoot mt-auto">

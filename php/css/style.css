@@ -22,10 +22,13 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 
 body {
+  background-image: url("../images/darkforest.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: -ms-flexbox;
   display: flex;
   color: #fff;
@@ -36,11 +39,10 @@ body {
 .cover-container {
   max-width: 42em;
 }
+img {
+  align: left;
+}
 
-
-/*
- * Header
- */
 .masthead {
   margin-bottom: 2rem;
 }
